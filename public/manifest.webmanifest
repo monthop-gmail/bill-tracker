@@ -1,0 +1,20 @@
+{
+  "name": "ค่าใช้จ่าย",
+  "short_name": "ค่าใช้จ่าย",
+  "description": "บันทึกค่าใช้จ่าย จ่ายครั้งเดียว รายเดือน รายปี และเตือนก่อนครบกำหนด",
+  "lang": "th",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f5f2ec",
+  "theme_color": "#f5f2ec",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "บันทึกการจ่าย", "short_name": "จ่ายแล้ว", "url": "/?add=pay" },
+    { "name": "ตั้งรายการล่วงหน้า", "short_name": "ตั้งรายการ", "url": "/?add=bill" }
+  ]
+}
